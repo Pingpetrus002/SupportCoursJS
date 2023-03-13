@@ -135,3 +135,13 @@ console.log(nouvelleChaine); // Affiche "Le JavaScript est un langage de program
 ```
 
 **Pour les Regex, utiliser les Cheat-Sheet sur https://www.regexpal.com**
+
+
+## Le Spread Operator :  
+
+- Permet d'éclater un tableau ou un objet : 
+
+```js
+const tab = [1,2,3,4,5]
+console.log(...tab) // Ici le tableau éclaté est renvoyé et donne donc, 1 2 3 4 5
+```
